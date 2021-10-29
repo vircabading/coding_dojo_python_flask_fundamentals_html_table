@@ -1,0 +1,28 @@
+/*  //////////////////////////////////////////////////
+    Subj:   Coding Dojo > Python > Flask > Fundamentals: HTML Table
+    By:     Virgilio D. Cabading Jr.    October 20, 2021
+    ////////////////////////////////////////////////// */
+
+.main_container {
+    height: 800px;
+    background-color: grey;
+}
+
+th, td {
+    height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: navy;
+    color: white;
+    font-size: 2rem;
+}
+
+td {
+    background-color: dodgerblue;
+    font-size: 1.5rem;
+}

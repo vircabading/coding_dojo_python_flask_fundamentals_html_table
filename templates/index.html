@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- /////////////////////////////////////////////////////////////////////
+# Subj:     Coding Dojo > Python > Flask > Fundamentals: HTML Table
+# By:       Virgilio D. Cabading Jr.  Created: October 28, 2021
+# ///////////////////////////////////////////////////////////////////// -->
+<html lang="en">
+
+<!--//// HEAD ////////////////////////////////////////-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- linking a css style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/css_lib.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>HTML Table</title>
+</head>
+
+<!--//// BODY ////////////////////////////////////////-->
+<body>
+    <div class="main-container container flex-down align-center">
+        <table class="wdt-100">
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Full Name</th>
+            </tr>
+            <tr>
+              <td>Virgilio</td>
+              <td>Cabading</td>
+              <td>Virgilio Cabading</td>
+            </tr>
+            <tr>
+              <td>Veronica</td>
+              <td>Rovira</td>
+              <td>Veronica Rovira</td>
+            </tr>
+          </table>
+    </div>
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
