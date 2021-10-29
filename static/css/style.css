@@ -3,14 +3,12 @@
     By:     Virgilio D. Cabading Jr.    October 20, 2021
     ////////////////////////////////////////////////// */
 
-.main_container {
-    height: 800px;
-    background-color: grey;
+table {
+    margin-top: 20px;
 }
 
 th, td {
-    height: 75px;
-    width: 300px;
+    padding: 10px;
     border-radius: 10px;
     margin: 20px;
     text-align: center;
